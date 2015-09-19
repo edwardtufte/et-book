@@ -1,3 +1,7 @@
+### ET Bembo
+
 A webfont version of the typeface used in Edward Tufte’s [books](https://www.edwardtufte.com/tufte/books_vdqi).
 
-ET Bembo is free and open-source. You can learn more about the creation of the typeface in [ET’s notebook](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000bm).
+-------------------------------------
+
+The ET Bembo webfont is free and open-source. It was designed by Dmitry Krasny, Bonnie Scranton, and [Edward Tufte](https://www.edwardtufte.com/tufte/). It was converted from the original `suit` files by [Adam Schwartz](@adamschwartz). Learn more about in [ET’s Notebook](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000bm).
