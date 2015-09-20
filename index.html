@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="et-bembo.css">
+    <style>
+      * {
+        margin: 0
+      }
+
+      html {
+        box-sizing: border-box;
+        font-family: "et-bembo", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        background: #fffff8;
+        color: #112;
+        font-size: 15px;
+      }
+
+      @media (max-width: 786px) {
+        html {
+          font-size: 12px
+        }
+      }
+
+      *, *:after, *:before, input {
+        font-family: inherit;
+        box-sizing: inherit
+      }
+
+      body {
+        line-height: 1.4;
+        width: 48em;
+        margin: 4em auto;
+        max-width: 100%;
+        padding-left: 1em;
+        padding-right: 1em
+      }
+
+      @media (max-width: 786px) {
+        body {
+          margin: 2em auto
+        }
+      }
+
+      h1, h2 {
+        font-weight: 400;
+        line-height: 1.2;
+        margin-top: 2em;
+        margin-bottom: 0
+      }
+
+      h1 {
+        font-size: 3.2em;
+        line-height: 1;
+        margin-top: 2em;
+        margin-bottom: .5em
+      }
+
+      @media (max-width: 786px) {
+        h1 {
+          margin-top: 0
+        }
+      }
+
+      h2 {
+        font-style: italic;
+        font-size: 2.3em;
+        margin-top: 1.7em;
+      }
+
+      p, ol, dl, ul {
+        font-size: 1.4em;
+        margin-top: 1.3em;
+        margin-bottom: 1.3em
+      }
+
+      a:link:not([class]), a:visited:not([class]) {
+        color: inherit;
+      }
+
+      a:link:not([class]) {
+        text-decoration: none;
+        background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#444, #444);
+        background: -moz-linear-gradient(#fffff8, #fffff8), -moz-linear-gradient(#fffff8, #fffff8), -moz-linear-gradient(#444, #444);
+        background: -o-linear-gradient(#fffff8, #fffff8), -o-linear-gradient(#fffff8, #fffff8), -o-linear-gradient(#444, #444);
+        background: -ms-linear-gradient(#fffff8, #fffff8), -ms-linear-gradient(#fffff8, #fffff8), -ms-linear-gradient(#444, #444);
+        background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#444, #444);
+        -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+        -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+        background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+        background-repeat: no-repeat, no-repeat, repeat-x;
+        text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
+        background-position: 0% 93%, 100% 93%, 0% 93%;
+      }
+
+      @media screen and (-webkit-min-device-pixel-ratio: 0) {
+        a:link:not([class]) {
+          background-position-y: 87%, 87%, 87%;
+        }
+      }
+
+      a:link:not([class])::selection {
+        text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+        background: #b4d5fe;
+      }
+
+      a:link:not([class])::-moz-selection {
+        text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+        background: #b4d5fe;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ET Bembo</h1>
+    <p>A webfont of the typeface used in Edward Tufte’s books.</p>
+
+    <h2>Overview</h2>
+    <p>ET Bembo is a Bembo-like font for the computer designed by Dmitry Krasny, Bonnie Scranton, and <a href="http://www.edwardtufte.com/">Edward Tufte</a>. It is free and open-source.</p>
+
+    <p>It was used in <a href="http://www.edwardtufte.com/tufte/books_be"><em>Beautiful Evidence</em></a>, and some of his other digitally released books. Tufte’s earlier books on analytical design were set in real lead in Monotype Bembo. While Monotype Bembo was an excellent book font, when converted to an electronic font, it became thin and spindly (the computer people ignored “squeeze”, the slight spreading of ink when the lead type hits the paper). So he, Krasny, and Scranton made their own computer version and also made some design changes (ligatures, several problems with the pi font, some letterforms, creation of a semibold). <a href="http://adamschwartz.co">Adam Schwartz</a> converted the digital font into a webfont and created this project, which exists on <a href="https://github.com/edwardtufte/et-bembo">GitHub</a>.</p>
+
+    <h2>Fonts</h2>
+    <p>ET Bembo consists of 5 fonts:</p>
+    <ul>
+      <li>Roman (Line Figures)</li>
+      <li>Roman (Old Style Figures)</li>
+      <li>Bold (Line Figures)</li>
+      <li>Bold (Old Style Figures)</li>
+      <li>Display Italic (Old Style Figures)</li>
+    </ul>
+
+    <p>Each of these fonts can be loaded separately. You can download them <a href="https://github.com/edwardtufte/et-bembo/tree/gh-pages/et-bembo">here</a>.</p>
+
+    <h2>Coming soon...</h2>
+    <p>This project is just getting started, so please be sure to check back as we’ll be updating this page with progress.</p>
+  </body>
+</html>
