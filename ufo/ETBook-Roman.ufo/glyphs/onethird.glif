@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="N" format="2">
+<glyph name="onethird" format="2">
   <advance width="727"/>
-  <unicode hex="004E"/>
+  <unicode hex="2153"/>
   <outline>
     <contour>
       <point x="157" y="-17" type="curve" smooth="yes"/>

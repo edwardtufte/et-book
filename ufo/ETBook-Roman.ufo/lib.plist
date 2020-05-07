@@ -19,11 +19,17 @@
       <string>Zcaron</string>
       <string>zcaron</string>
       <string>onehalf</string>
+      <string>onethird</string>
       <string>onequarter</string>
+      <string>oneeighth</string>
       <string>onesuperior</string>
-      <string>threequarters</string>
-      <string>threesuperior</string>
+      <string>twothirds</string>
       <string>twosuperior</string>
+      <string>threequarters</string>
+      <string>threeeighths</string>
+      <string>threesuperior</string>
+      <string>fiveeighths</string>
+      <string>seveneighths</string>
       <string>brokenbar</string>
       <string>minus</string>
       <string>multiply</string>

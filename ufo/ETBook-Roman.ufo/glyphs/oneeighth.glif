@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="J" format="2">
+<glyph name="oneeighth" format="2">
   <advance width="721"/>
-  <unicode hex="004A"/>
+  <unicode hex="215B"/>
   <outline>
     <contour>
       <point x="703" y="100" type="curve" smooth="yes"/>

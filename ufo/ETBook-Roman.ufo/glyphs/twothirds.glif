@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="O" format="2">
+<glyph name="twothirds" format="2">
   <advance width="742"/>
-  <unicode hex="004F"/>
+  <unicode hex="2154"/>
   <outline>
     <contour>
       <point x="179" y="-17" type="curve" smooth="yes"/>
