@@ -1,8 +1,6 @@
 @figures = [\zero \one \two \three \four \five \six \seven \eight \nine];
 # @figures_numr = [\zero.num \one.num \two.num \three.num \four.num \five.num \six.num \seven.num \eight.num \nine.num];
 # @figures_dnom = [\zero.num \one.num \two.num \three.num \four.num \five.num \six.num \seven.num \eight.num \nine.num];
-@figures_onum = [\zero \one \two \three \four \five \six \seven \eight \nine];
-@figures_lnum = [\zero.lining \one.lining \two.lining \three.lining \four.lining \five.lining \six.lining \seven.lining \eight.lining \nine.lining];
 
 # feature frac {
 #     @slash = [\slash \fraction \fraction.frac];
@@ -161,11 +159,4 @@
 # } smcp;
 
 include(../../features/ligatures.fea);
-
-feature onum {
-    sub @figures_lnum by @figures_onum;
-} onum;
-
-feature lnum {
-    sub @figures_onum by @figures_lnum;
-} lnum;
+include(../../features/figure_casing.fea);

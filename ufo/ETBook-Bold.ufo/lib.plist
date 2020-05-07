@@ -43,15 +43,25 @@
       <string>period</string>
       <string>slash</string>
       <string>zero</string>
+      <string>zero.lining</string>
       <string>one</string>
+      <string>one.lining</string>
       <string>two</string>
+      <string>two.lining</string>
       <string>three</string>
+      <string>three.lining</string>
       <string>four</string>
+      <string>four.lining</string>
       <string>five</string>
+      <string>five.lining</string>
       <string>six</string>
+      <string>six.lining</string>
       <string>seven</string>
+      <string>seven.lining</string>
       <string>eight</string>
+      <string>eight.lining</string>
       <string>nine</string>
+      <string>nine.lining</string>
       <string>colon</string>
       <string>semicolon</string>
       <string>less</string>
