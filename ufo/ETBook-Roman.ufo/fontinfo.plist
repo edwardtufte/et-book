@@ -6,6 +6,12 @@
     <string>ETBembo designed for Eward Tufte / Graphics Press \(c\) 2002 Dmitry Krasny / Deka Design</string>
     <key>familyName</key>
     <string>ETBook</string>
+    <key>styleName</key>
+    <string>Roman</string>
+    <key>styleMapFamilyName</key>
+    <string>ETBook</string>
+    <key>styleMapStyleName</key>
+    <string>roman</string>
     <key>guidelines</key>
     <array/>
     <key>italicAngle</key>

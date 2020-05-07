@@ -167,10 +167,10 @@
 #     sub \f \l  by \f_l;
 #     sub \f \f  by \f_f;
 # } liga;
-# 
-# feature onum {
-#     sub @figures_lnum by @figures_onum;
-# } onum;
+
+feature onum {
+    sub @figures_lnum by @figures_onum;
+} onum;
 
 feature lnum {
     sub @figures_onum by @figures_lnum;
