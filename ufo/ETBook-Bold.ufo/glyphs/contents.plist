@@ -240,22 +240,22 @@
     <string>exclam.glif</string>
     <key>exclamdown</key>
     <string>exclamdown.glif</string>
+    <key>f_f</key>
+    <string>f_f.glif</string>
+    <key>f_f_i</key>
+    <string>f_f_i.glif</string>
+    <key>f_f_l</key>
+    <string>f_f_l.glif</string>
+    <key>f_i</key>
+    <string>f_i.glif</string>
+    <key>f_l</key>
+    <string>f_l.glif</string>
     <key>f</key>
     <string>f.glif</string>
-    <key>ff</key>
-    <string>ff.glif</string>
-    <key>ffi</key>
-    <string>ffi.glif</string>
-    <key>ffl</key>
-    <string>ffl.glif</string>
-    <key>fi</key>
-    <string>fi.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>five.lining</key>
     <string>five.lining.glif</string>
-    <key>fl</key>
-    <string>fl.glif</string>
     <key>florin</key>
     <string>florin.glif</string>
     <key>four</key>
