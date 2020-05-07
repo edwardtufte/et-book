@@ -5,7 +5,13 @@
     <key>copyright</key>
     <string>ETBembo designed for Eward Tufte / Graphics Press \(c\) 2002 Dmitry Krasny / Deka Design</string>
     <key>familyName</key>
-    <string>ETBembo</string>
+    <string>ETBook</string>
+    <key>styleName</key>
+    <string>Bold</string>
+    <key>styleMapFamilyName</key>
+    <string>ETBook</string>
+    <key>styleMapStyleName</key>
+    <string>bold</string>
     <key>guidelines</key>
     <array/>
     <key>italicAngle</key>
@@ -32,11 +38,11 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>ETBembo-BoldOSF</string>
+    <string>ETBold-Bold</string>
     <key>postscriptForceBold</key>
     <true/>
     <key>postscriptFullName</key>
-    <string>ETBembo Bold Oldstyle Figures</string>
+    <string>ETBook Bold</string>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>-260</integer>
