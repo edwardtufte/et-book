@@ -211,8 +211,8 @@
       <string>Euro</string>
       <string>guilsinglleft</string>
       <string>guilsinglright</string>
-      <string>fi</string>
-      <string>fl</string>
+      <string>f_i</string>
+      <string>f_l</string>
       <string>daggerdbl</string>
       <string>periodcentered</string>
       <string>quotesinglbase</string>
@@ -245,9 +245,9 @@
       <string>ogonek</string>
       <string>caron</string>
       <string>currency</string>
-      <string>ff</string>
-      <string>ffi</string>
-      <string>ffl</string>
+      <string>f_f</string>
+      <string>f_f_i</string>
+      <string>f_f_l</string>
     </array>
   </dict>
 </plist>

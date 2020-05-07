@@ -159,14 +159,14 @@
 #     sub \oe by \oe.sc;
 #     sub \ydieresis by \ydieresis.sc;
 # } smcp;
-# 
-# feature liga {
-#     sub \f \f \i  by \f_f_i;
-#     sub \f \f \l  by \f_f_l;
-#     sub \f \i  by \f_i;
-#     sub \f \l  by \f_l;
-#     sub \f \f  by \f_f;
-# } liga;
+
+feature liga {
+    sub \f \f \i  by \f_f_i;
+    sub \f \f \l  by \f_f_l;
+    sub \f \i  by \f_i;
+    sub \f \l  by \f_l;
+    sub \f \f  by \f_f;
+} liga;
 
 feature onum {
     sub @figures_lnum by @figures_onum;
