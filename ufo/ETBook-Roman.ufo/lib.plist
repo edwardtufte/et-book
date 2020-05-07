@@ -14,8 +14,10 @@
       <string>scaron</string>
       <string>Yacute</string>
       <string>yacute</string>
+      <string>yacute.sc</string>
       <string>Thorn</string>
       <string>thorn</string>
+      <string>thorn.sc</string>
       <string>Zcaron</string>
       <string>zcaron</string>
       <string>onehalf</string>
@@ -133,6 +135,32 @@
       <string>x</string>
       <string>y</string>
       <string>z</string>
+      <string>a.sc</string>
+      <string>b.sc</string>
+      <string>c.sc</string>
+      <string>d.sc</string>
+      <string>e.sc</string>
+      <string>f.sc</string>
+      <string>g.sc</string>
+      <string>h.sc</string>
+      <string>i.sc</string>
+      <string>j.sc</string>
+      <string>k.sc</string>
+      <string>l.sc</string>
+      <string>m.sc</string>
+      <string>n.sc</string>
+      <string>o.sc</string>
+      <string>p.sc</string>
+      <string>q.sc</string>
+      <string>r.sc</string>
+      <string>s.sc</string>
+      <string>t.sc</string>
+      <string>u.sc</string>
+      <string>v.sc</string>
+      <string>w.sc</string>
+      <string>x.sc</string>
+      <string>y.sc</string>
+      <string>z.sc</string>
       <string>braceleft</string>
       <string>bar</string>
       <string>braceright</string>
@@ -169,6 +197,31 @@
       <string>ugrave</string>
       <string>ucircumflex</string>
       <string>udieresis</string>
+      <string>aacute.sc</string>
+      <string>agrave.sc</string>
+      <string>acircumflex.sc</string>
+      <string>adieresis.sc</string>
+      <string>atilde.sc</string>
+      <string>aring.sc</string>
+      <string>ccedilla.sc</string>
+      <string>eacute.sc</string>
+      <string>egrave.sc</string>
+      <string>ecircumflex.sc</string>
+      <string>edieresis.sc</string>
+      <string>iacute.sc</string>
+      <string>igrave.sc</string>
+      <string>icircumflex.sc</string>
+      <string>idieresis.sc</string>
+      <string>ntilde.sc</string>
+      <string>oacute.sc</string>
+      <string>ograve.sc</string>
+      <string>ocircumflex.sc</string>
+      <string>odieresis.sc</string>
+      <string>otilde.sc</string>
+      <string>uacute.sc</string>
+      <string>ugrave.sc</string>
+      <string>ucircumflex.sc</string>
+      <string>udieresis.sc</string>
       <string>dagger</string>
       <string>degree</string>
       <string>cent</string>
@@ -190,7 +243,9 @@
       <string>ordfeminine</string>
       <string>ordmasculine</string>
       <string>ae</string>
+      <string>ae.sc</string>
       <string>oslash</string>
+      <string>oslash.sc</string>
       <string>questiondown</string>
       <string>exclamdown</string>
       <string>logicalnot</string>
@@ -204,6 +259,7 @@
       <string>Otilde</string>
       <string>OE</string>
       <string>oe</string>
+      <string>oe.sc</string>
       <string>endash</string>
       <string>emdash</string>
       <string>quotedblleft</string>
@@ -213,6 +269,7 @@
       <string>divide</string>
       <string>ydieresis</string>
       <string>Ydieresis</string>
+      <string>ydieresis.sc</string>
       <string>fraction</string>
       <string>Euro</string>
       <string>guilsinglleft</string>
