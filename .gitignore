@@ -3,6 +3,7 @@ tests
 build
 otf
 woff
+*.otf
 specimen/specimen.aux
 specimen/specimen.log
 specimen/specimen.pdf
