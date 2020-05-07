@@ -5,7 +5,9 @@
     <key>copyright</key>
     <string>ETBembo Italic designed for Eward Tufte / Graphics Press \251 2004 Dmitry Krasny / Deka Design</string>
     <key>familyName</key>
-    <string>ETBembo</string>
+    <string>ETBook</string>
+    <key>styleName</key>
+    <string>Display Italic</string>
     <key>guidelines</key>
     <array/>
     <key>italicAngle</key>
@@ -32,11 +34,11 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>ETBembo-DisplayItalic</string>
+    <string>ETBook-DisplayItalic</string>
     <key>postscriptForceBold</key>
     <false/>
     <key>postscriptFullName</key>
-    <string>ETBembo Display Italic</string>
+    <string>ETBook Display Italic</string>
     <key>postscriptOtherBlues</key>
     <array>
       <integer>-275</integer>
