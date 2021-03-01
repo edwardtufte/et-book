@@ -1,1 +1,2 @@
 include(../../features/ligatures.fea);
+include(kerning.fea);

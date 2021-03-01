@@ -1,0 +1,12 @@
+feature kern {
+    position T a -42;
+    position T e -42;
+    position T u -32;
+    position T y -32;
+    position Y a -21;
+    position Y e -37;
+    position Y o -16;
+    position Y u -21;
+    position Y v -21;
+    position e guilsinglleft -12;
+} kern;

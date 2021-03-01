@@ -13,7 +13,7 @@ Current status of the second conversion is as follows:
 * The Roman and Bold weights have had the lining and old-style variant files merged into single fonts, which use the OpenType `onum` and `lnum` features to select between the two figure styles.
 * The letter combinations ff, fi, fl, ffi, and ffl are replaced by their corresponding ligatures with the OpenType `liga` feature.
 * Small caps are supported for all letters in the Roman font, and for hopefully all of the smaller punctuation activated by the `c2sc` feature.
-* The Roman font (but not yet any of the others) has had the kerning table which was present in the original font suitcase files merged into the OpenType `kern` table.
+* The kerning tables which were present in the original font suitcase files have been merged into the OpenType `kern` table.
 
 Note that most of the hacking right now is going on at the raw UFO/OpenType feature file source level (editing the XML and feature files manually to merge features into font files).
 
