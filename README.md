@@ -5,23 +5,23 @@ An OpenType version of the typeface used in Edward Tufte’s [books][], from the
 [books]: https://www.edwardtufte.com/tufte/books_vdqi
 [orig]: https://github.com/edwardtufte/et-book
 
-Created by converting the fonts to FontForge source files, then making various technical changes to use modern OpenType font features while leaving the typeface design itself unaltered. With these changes it’s easy to use ET Book with all the fancy typographical features on your website, in your word processor, or in a professional typesetting program with OpenType support like [LuaTeX][], [XeTeX][], and [Adobe InDesign][id].
+The `master` branch contains a usable, but not really very good, conversion of the original fonts using FontForge. This branch contains a work-in-progress second attempt at a conversion using more modern toolchains, in particular the UFO font format.
 
-[LuaTeX]: http://www.luatex.org/
-[XeTeX]: http://xetex.sourceforge.net/
-[id]: https://en.wikipedia.org/wiki/Adobe_InDesign
+Current status of the second conversion is as follows:
 
-The following features are currently available:
+* All fonts have been converted from the original PostScript Type 1 files to UFO format.
+* The Roman and Bold weights have had the lining and old-style variant files merged into single fonts, which use the OpenType `onum` and `lnum` features to select between the two figure styles.
+* The letter combinations ff, fi, fl, ffi, and ffl are replaced by their corresponding ligatures with the OpenType `liga` feature.
+* Small caps are supported for all letters in the Roman font, but not yet for the small caps punctuation which will be activated by the `c2sc` feature.
+* The Roman font (but not yet any of the others) has had the kerning table which was present in the original font suitcase files merged into the OpenType `kern` table.
 
-* Old-style figures (the default) in all styles
-* Lining figures (through an OpenType feature) in the Bold and Roman styles
-* Automatic ligature substitution (for the included ligatures ff fi fl ffi ffl)
+Note that most of the hacking right now is going on at the raw UFO/OpenType feature file source level (editing the XML and feature files manually to merge features into font files).
 
-There remain some features to be brought over from the Expert font, of which the most obvious is small-caps support.
+Eventual goals, once the basic hacking of the original font files with all their original features into a modern format is complete, include better Unicode support by building accents characters out of the raw base letters and accents in the original repo.
 
 -------------------------------------
 
-ET Book was designed by Dmitry Krasny, Bonnie Scranton, and [Edward Tufte][et]. It was converted from the original `suit` files by [David Kendal][dpk] ([@dpk][dpkgh]) following the original webfont conversion by  [Adam Schwartz][as] ([@adamschwartz][asgh]).
+ET Book was designed by Dmitry Krasny, Bonnie Scranton, and [Edward Tufte][et]. It was converted from the original `suit` files by [Daphne Preston-Kendal][dpk] ([@dpk][dpkgh]) following the original webfont conversion by  [Adam Schwartz][as] ([@adamschwartz][asgh]).
 
 [et]: https://www.edwardtufte.com/tufte/
 [dpk]: http://dpk.io/
