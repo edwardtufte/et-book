@@ -36,15 +36,22 @@
       <string>minus</string>
       <string>multiply</string>
       <string>exclam</string>
+      <string>exclam.csc</string>
       <string>quotedbl</string>
       <string>numbersign</string>
       <string>dollar</string>
+      <string>dollar.csc</string>
       <string>percent</string>
+      <string>percent.csc</string>
       <string>ampersand</string>
+      <string>ampersand.csc</string>
       <string>quotesingle</string>
       <string>parenleft</string>
+      <string>parenleft.csc</string>
       <string>parenright</string>
+      <string>parenright.csc</string>
       <string>asterisk</string>
+      <string>asterisk.csc</string>
       <string>plus</string>
       <string>comma</string>
       <string>hyphen</string>
@@ -73,9 +80,13 @@
       <string>colon</string>
       <string>semicolon</string>
       <string>less</string>
+      <string>less.csc</string>
       <string>equal</string>
+      <string>equal.csc</string>
       <string>greater</string>
+      <string>greater.csc</string>
       <string>question</string>
+      <string>question.csc</string>
       <string>at</string>
       <string>A</string>
       <string>B</string>
@@ -162,9 +173,12 @@
       <string>y.sc</string>
       <string>z.sc</string>
       <string>braceleft</string>
+      <string>braceleft.csc</string>
       <string>bar</string>
       <string>braceright</string>
+      <string>braceright.csc</string>
       <string>asciitilde</string>
+      <string>asciitilde.csc</string>
       <string>Adieresis</string>
       <string>Aring</string>
       <string>Ccedilla</string>
@@ -223,12 +237,14 @@
       <string>ucircumflex.sc</string>
       <string>udieresis.sc</string>
       <string>dagger</string>
+      <string>dagger.csc</string>
       <string>degree</string>
       <string>cent</string>
       <string>sterling</string>
       <string>section</string>
       <string>bullet</string>
       <string>paragraph</string>
+      <string>paragraph.csc</string>
       <string>germandbls</string>
       <string>registered</string>
       <string>copyright</string>
@@ -281,6 +297,7 @@
       <string>quotesinglbase</string>
       <string>quotedblbase</string>
       <string>perthousand</string>
+      <string>perthousand.csc</string>
       <string>Acircumflex</string>
       <string>Ecircumflex</string>
       <string>Aacute</string>

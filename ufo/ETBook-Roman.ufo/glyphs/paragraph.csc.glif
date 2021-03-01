@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="product" format="2">
+<glyph name="paragraph.csc" format="2">
   <advance width="403"/>
-  <unicode hex="220F"/>
+  <unicode hex="00B6"/>
   <outline>
     <contour>
       <point x="362" y="432" type="line" smooth="yes"/>

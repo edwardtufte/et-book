@@ -156,6 +156,8 @@
     <string>agrave.sc.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
+    <key>ampersand.csc</key>
+    <string>ampersand.csc.glif</string>
     <key>aring</key>
     <string>aring.glif</string>
     <key>aring.sc</key>
@@ -164,8 +166,12 @@
     <string>asciicircum.glif</string>
     <key>asciitilde</key>
     <string>asciitilde.glif</string>
+    <key>asciitilde.csc</key>
+    <string>asciitilde.csc.glif</string>
     <key>asterisk</key>
     <string>asterisk.glif</string>
+    <key>asterisk.csc</key>
+    <string>asterisk.csc.glif</string>
     <key>at</key>
     <string>at.glif</string>
     <key>atilde</key>
@@ -182,8 +188,12 @@
     <string>bar.glif</string>
     <key>braceleft</key>
     <string>braceleft.glif</string>
+    <key>braceleft.csc</key>
+    <string>braceleft.csc.glif</string>
     <key>braceright</key>
     <string>braceright.glif</string>
+    <key>braceright.csc</key>
+    <string>braceright.csc.glif</string>
     <key>bracketleft</key>
     <string>bracketleft.glif</string>
     <key>bracketright</key>
@@ -224,6 +234,8 @@
     <string>d.sc.glif</string>
     <key>dagger</key>
     <string>dagger.glif</string>
+    <key>dagger.csc</key>
+    <string>dagger.csc.glif</string>
     <key>daggerdbl</key>
     <string>daggerdbl.glif</string>
     <key>degree</key>
@@ -234,6 +246,8 @@
     <string>divide.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
+    <key>dollar.csc</key>
+    <string>dollar.csc.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
     <key>dotlessi</key>
@@ -270,10 +284,14 @@
     <string>endash.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
+    <key>equal.csc</key>
+    <string>equal.csc.glif</string>
     <key>eth</key>
     <string>eth.glif</string>
     <key>exclam</key>
     <string>exclam.glif</string>
+    <key>exclam.csc</key>
+    <string>exclam.csc.glif</string>
     <key>exclamdown</key>
     <string>exclamdown.glif</string>
     <key>f_f</key>
@@ -314,6 +332,8 @@
     <string>grave.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
+    <key>greater.csc</key>
+    <string>greater.csc.glif</string>
     <key>guillemotleft</key>
     <string>guillemotleft.glif</string>
     <key>guillemotright</key>
@@ -364,6 +384,8 @@
     <string>l.sc.glif</string>
     <key>less</key>
     <string>less.glif</string>
+    <key>less.csc</key>
+    <string>less.csc.glif</string>
     <key>logicalnot</key>
     <string>logicalnot.glif</string>
     <key>lslash</key>
@@ -452,18 +474,28 @@
     <string>p.sc.glif</string>
     <key>paragraph</key>
     <string>paragraph.glif</string>
+    <key>paragraph.csc</key>
+    <string>paragraph.csc.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
+    <key>parenleft.csc</key>
+    <string>parenleft.csc.glif</string>
     <key>parenright</key>
     <string>parenright.glif</string>
+    <key>parenright.csc</key>
+    <string>parenright.csc.glif</string>
     <key>percent</key>
     <string>percent.glif</string>
+    <key>percent.csc</key>
+    <string>percent.csc.glif</string>
     <key>period</key>
     <string>period.glif</string>
     <key>periodcentered</key>
     <string>periodcentered.glif</string>
     <key>perthousand</key>
     <string>perthousand.glif</string>
+    <key>perthousand.csc</key>
+    <string>perthousand.csc.glif</string>
     <key>plus</key>
     <string>plus.glif</string>
     <key>plusminus</key>
@@ -474,6 +506,8 @@
     <string>q.sc.glif</string>
     <key>question</key>
     <string>question.glif</string>
+    <key>question.csc</key>
+    <string>question.csc.glif</string>
     <key>questiondown</key>
     <string>questiondown.glif</string>
     <key>quotedbl</key>

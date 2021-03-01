@@ -1,21 +1,21 @@
 feature c2sc {
-#     sub \exclam by \exclam.csc;
-#     sub \dollar by \dollar.csc;
-#     sub \percent by \percent.csc;
-#     sub \ampersand by \ampersand.csc;
-#     sub \parenleft by \parenleft.csc;
-#     sub \parenright by \parenright.csc;
-#     sub \asterisk by \asterisk.csc;
-#     sub \less by \less.csc;
-#     sub \equal by \equal.csc;
-#     sub \greater by \greater.csc;
-#     sub \question by \question.csc;
-#     sub \braceleft by \braceleft.csc;
-#     sub \braceright by \braceright.csc;
-#     sub \asciitilde by \asciitilde.csc;
-#     sub \dagger by \dagger.csc;
-#     sub \paragraph by \paragraph.csc;
-#     sub \perthousand by \perthousand.csc;
+    sub \exclam by \exclam.csc;
+    sub \dollar by \dollar.csc;
+    sub \percent by \percent.csc;
+    sub \ampersand by \ampersand.csc;
+    sub \parenleft by \parenleft.csc;
+    sub \parenright by \parenright.csc;
+    sub \asterisk by \asterisk.csc;
+    sub \less by \less.csc;
+    sub \equal by \equal.csc;
+    sub \greater by \greater.csc;
+    sub \question by \question.csc;
+    sub \braceleft by \braceleft.csc;
+    sub \braceright by \braceright.csc;
+    sub \asciitilde by \asciitilde.csc;
+    sub \dagger by \dagger.csc;
+    sub \paragraph by \paragraph.csc;
+    sub \perthousand by \perthousand.csc;
 
     sub \Yacute by \yacute.sc;
     sub \Thorn by \thorn.sc;
