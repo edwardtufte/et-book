@@ -25,5 +25,6 @@
 include(../../features/small_caps.fea);
 include(../../features/ligatures.fea);
 include(../../features/figure_casing.fea);
+include(../../features/figure_spacing.fea);
 
 include(kerning.fea);

@@ -1,0 +1,26 @@
+feature pnum {
+    position zero one -10;
+    position zero six 21;
+    position one zero -22;
+    position one three -14;
+    position one five -34;
+    position one six -20;
+    position one seven -25;
+    position one eight -16;
+    position three one -22;
+    position three two -25;
+    position three four -25;
+    position three five -25;
+    position three seven -10;
+    position three eight -20;
+    position five one -25;
+    position six nine 22;
+    position seven four -6;
+    position eight one -34;
+    position eight two -8;
+    position eight three -18;
+    position eight four -18;
+    position eight five -36;
+    position nine six 22;
+} pnum;
+
