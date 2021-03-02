@@ -274,8 +274,12 @@
     <string>egrave.sc.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
+    <key>eight.den</key>
+    <string>eight.den.glif</string>
     <key>eight.lining</key>
     <string>eight.lining.glif</string>
+    <key>eight.num</key>
+    <string>eight.num.glif</string>
     <key>ellipsis</key>
     <string>ellipsis.glif</string>
     <key>emdash</key>
@@ -310,18 +314,28 @@
     <string>f.sc.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>five.den</key>
+    <string>five.den.glif</string>
     <key>five.lining</key>
     <string>five.lining.glif</string>
+    <key>five.num</key>
+    <string>five.num.glif</string>
     <key>fiveeighths</key>
     <string>fiveeighths.glif</string>
     <key>florin</key>
     <string>florin.glif</string>
     <key>four</key>
     <string>four.glif</string>
+    <key>four.den</key>
+    <string>four.den.glif</string>
     <key>four.lining</key>
     <string>four.lining.glif</string>
+    <key>four.num</key>
+    <string>four.num.glif</string>
     <key>fraction</key>
     <string>fraction.glif</string>
+    <key>fraction.frac</key>
+    <string>fraction.frac.glif</string>
     <key>g</key>
     <string>g.glif</string>
     <key>g.sc</key>
@@ -408,8 +422,12 @@
     <string>n.sc.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
+    <key>nine.den</key>
+    <string>nine.den.glif</string>
     <key>nine.lining</key>
     <string>nine.lining.glif</string>
+    <key>nine.num</key>
+    <string>nine.num.glif</string>
     <key>ntilde</key>
     <string>ntilde.glif</string>
     <key>ntilde.sc</key>
@@ -444,8 +462,12 @@
     <string>ograve.sc.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>one.den</key>
+    <string>one.den.glif</string>
     <key>one.lining</key>
     <string>one.lining.glif</string>
+    <key>one.num</key>
+    <string>one.num.glif</string>
     <key>oneeighth</key>
     <string>oneeighth.glif</string>
     <key>onehalf</key>
@@ -546,14 +568,22 @@
     <string>semicolon.glif</string>
     <key>seven</key>
     <string>seven.glif</string>
+    <key>seven.den</key>
+    <string>seven.den.glif</string>
     <key>seven.lining</key>
     <string>seven.lining.glif</string>
+    <key>seven.num</key>
+    <string>seven.num.glif</string>
     <key>seveneighths</key>
     <string>seveneighths.glif</string>
     <key>six</key>
     <string>six.glif</string>
+    <key>six.den</key>
+    <string>six.den.glif</string>
     <key>six.lining</key>
     <string>six.lining.glif</string>
+    <key>six.num</key>
+    <string>six.num.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
     <key>space</key>
@@ -570,8 +600,12 @@
     <string>thorn.sc.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>three.den</key>
+    <string>three.den.glif</string>
     <key>three.lining</key>
     <string>three.lining.glif</string>
+    <key>three.num</key>
+    <string>three.num.glif</string>
     <key>threeeighths</key>
     <string>threeeighths.glif</string>
     <key>threequarters</key>
@@ -586,8 +620,12 @@
     <string>trademark.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>two.den</key>
+    <string>two.den.glif</string>
     <key>two.lining</key>
     <string>two.lining.glif</string>
+    <key>two.num</key>
+    <string>two.num.glif</string>
     <key>twosuperior</key>
     <string>twosuperior.glif</string>
     <key>u</key>
@@ -648,7 +686,11 @@
     <string>zcaron.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>zero.den</key>
+    <string>zero.den.glif</string>
     <key>zero.lining</key>
     <string>zero.lining.glif</string>
+    <key>zero.num</key>
+    <string>zero.num.glif</string>
   </dict>
 </plist>

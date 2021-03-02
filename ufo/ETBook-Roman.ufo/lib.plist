@@ -59,24 +59,44 @@
       <string>slash</string>
       <string>zero</string>
       <string>zero.lining</string>
+      <string>zero.num</string>
+      <string>zero.den</string>
       <string>one</string>
       <string>one.lining</string>
+      <string>one.num</string>
+      <string>one.den</string>
       <string>two</string>
       <string>two.lining</string>
+      <string>two.num</string>
+      <string>two.den</string>
       <string>three</string>
       <string>three.lining</string>
+      <string>three.num</string>
+      <string>three.den</string>
       <string>four</string>
       <string>four.lining</string>
+      <string>four.num</string>
+      <string>four.den</string>
       <string>five</string>
       <string>five.lining</string>
+      <string>five.num</string>
+      <string>five.den</string>
       <string>six</string>
+      <string>six.num</string>
+      <string>six.den</string>
       <string>six.lining</string>
       <string>seven</string>
       <string>seven.lining</string>
+      <string>seven.num</string>
+      <string>seven.den</string>
       <string>eight</string>
       <string>eight.lining</string>
+      <string>eight.num</string>
+      <string>eight.den</string>
       <string>nine</string>
       <string>nine.lining</string>
+      <string>nine.num</string>
+      <string>nine.den</string>
       <string>colon</string>
       <string>semicolon</string>
       <string>less</string>
@@ -287,6 +307,7 @@
       <string>Ydieresis</string>
       <string>ydieresis.sc</string>
       <string>fraction</string>
+      <string>fraction.frac</string>
       <string>Euro</string>
       <string>guilsinglleft</string>
       <string>guilsinglright</string>

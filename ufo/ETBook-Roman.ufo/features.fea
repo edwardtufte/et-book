@@ -1,26 +1,26 @@
 @figures = [\zero \one \two \three \four \five \six \seven \eight \nine];
-# @figures_numr = [\zero.num \one.num \two.num \three.num \four.num \five.num \six.num \seven.num \eight.num \nine.num];
-# @figures_dnom = [\zero.num \one.num \two.num \three.num \four.num \five.num \six.num \seven.num \eight.num \nine.num];
+@figures_lining = [\zero.lining \one.lining \two.lining \three.lining \four.lining \five.lining \six.lining \seven.lining \eight.lining \nine.lining];
+@figures_numr = [\zero.num \one.num \two.num \three.num \four.num \five.num \six.num \seven.num \eight.num \nine.num];
+@figures_dnom = [\zero.den \one.den \two.den \three.den \four.den \five.den \six.den \seven.den \eight.den \nine.den];
 
-# feature frac {
-#     @slash = [\slash \fraction \fraction.frac];
-# 	
-# 	lookup FractionNumerators {
-# 	    sub @figures by @figures_numr;
-# 	} FractionNumerators;
-# 	
-# 	sub [@slash @figures_dnom] @figures_numr' by @figures_dnom;
-# 	sub slash by fraction.frac;
-# 	sub fraction by fraction.frac;
-# } frac;
-# 
-# feature numr {
-#     sub @figures by @figures_numr;
-# } numr;
-# 
-# feature dnom {
-#     sub @figures by @figures_dnom;
-# } dnom;
+feature frac {
+    @slash = [\slash \fraction \fraction.frac];
+
+    sub @figures by @figures_numr;
+    sub [@slash @figures_dnom] @figures_numr' by @figures_dnom;
+    sub slash by fraction.frac;
+    sub fraction by fraction.frac;
+} frac;
+
+feature numr {
+    sub @figures by @figures_numr;
+    sub @figures_lining by @figures_numr;
+} numr;
+
+feature dnom {
+    sub @figures by @figures_dnom;
+    sub @figures_lining by @figures_dnom;
+} dnom;
 
 include(../../features/small_caps.fea);
 include(../../features/ligatures.fea);
