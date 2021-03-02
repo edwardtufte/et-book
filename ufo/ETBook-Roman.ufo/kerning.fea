@@ -9,22 +9,20 @@
 # OSF version. The exception is i o, which was in the OSF file but not
 # the LF one.
 
-@space = [space];
-
 feature kern {
-    position @space A -7;
-    position @space C -13;
-    position @space M -7;
-    position @space N -7;
-    position @space Q -10;
-    position @space S -7;
-    position @space T -33;
-    position @space U -13;
-    position @space V -40;
-    position @space W -23;
-    position @space X -20;
-    position @space Y -53;
-    position @space Z -20;
+    position space A -7;
+    position space C -13;
+    position space M -7;
+    position space N -7;
+    position space Q -10;
+    position space S -7;
+    position space T -33;
+    position space U -13;
+    position space V -40;
+    position space W -23;
+    position space X -20;
+    position space Y -53;
+    position space Z -20;
     position hyphen zero.lining 19;
     position hyphen one.lining -81;
     position hyphen two.lining -43;
@@ -126,4 +124,69 @@ feature kern {
     position Y y -50; # OSF: -63
     position i o -20; # from OSF, not in LF
     position z f 20;
+
+    position a.sc j.sc -27;
+    position a.sc n.sc -6;
+    position a.sc o.sc -12;
+    position a.sc r.sc -13;
+    position a.sc s.sc -27;
+    position a.sc t.sc -33;
+    position a.sc u.sc -50;
+    position b.sc a.sc -18;
+    position b.sc j.sc -20;
+    position b.sc n.sc -20;
+    position b.sc y.sc -24;
+    position c.sc v.sc -7;
+    position d.sc a.sc -24;
+    position d.sc f.sc -20;
+    position d.sc i.sc -18;
+    position d.sc m.sc -31;
+    position d.sc w.sc -68;
+    position e.sc a.sc -3;
+    position e.sc r.sc 3;
+    position f.sc a.sc -24;
+    position f.sc g.sc -13;
+    position i.sc e.sc 13;
+    position i.sc o.sc -13;
+    position l.sc a.sc -33;
+    position l.sc y.sc -53;
+    position o.sc a.sc -30;
+    position o.sc k.sc -18;
+    position o.sc n.sc -20;
+    position o.sc p.sc -30;
+    position o.sc r.sc -13;
+    position o.sc v.sc -47;
+    position p.sc a.sc -60;
+    position p.sc ae.sc -20;
+    position q.sc a.sc -24;
+    position q.sc w.sc -73;
+    position r.sc a.sc -39;
+    position r.sc d.sc -18;
+    position r.sc e.sc -18;
+    position r.sc f.sc -13;
+    position r.sc j.sc -20;
+    position r.sc o.sc -42;
+    position r.sc s.sc -32;
+    position r.sc t.sc -93;
+    position r.sc u.sc -18;
+    position r.sc y.sc -73;
+    position s.sc a.sc -6;
+    position t.sc a.sc -48;
+    position t.sc y.sc -7;
+    position u.sc a.sc -58;
+    position u.sc h.sc -18;
+    position v.sc a.sc -42;
+    position v.sc ae.sc -27;
+    position w.sc a.sc -110;
+    position w.sc c.sc -42;
+    position w.sc e.sc -13;
+    position w.sc o.sc -27;
+    position w.sc s.sc -38;
+    position w.sc ae.sc -30;
+    position x.sc c.sc -47;
+    position x.sc y.sc -6;
+    position y.sc a.sc -70;
+    position y.sc o.sc -40;
+    position y.sc ae.sc -7;
+    position z.sc w.sc -33;
 } kern;
