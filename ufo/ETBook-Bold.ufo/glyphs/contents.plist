@@ -252,10 +252,14 @@
     <string>f_l.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>fi</key>
+    <string>fi.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>five.lining</key>
     <string>five.lining.glif</string>
+    <key>fl</key>
+    <string>fl.glif</string>
     <key>florin</key>
     <string>florin.glif</string>
     <key>four</key>

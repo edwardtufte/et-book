@@ -312,6 +312,8 @@
     <string>f.glif</string>
     <key>f.sc</key>
     <string>f.sc.glif</string>
+    <key>fi</key>
+    <string>fi.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>five.den</key>
@@ -322,6 +324,8 @@
     <string>five.num.glif</string>
     <key>fiveeighths</key>
     <string>fiveeighths.glif</string>
+    <key>fl</key>
+    <string>fl.glif</string>
     <key>florin</key>
     <string>florin.glif</string>
     <key>four</key>

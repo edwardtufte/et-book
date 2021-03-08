@@ -252,8 +252,12 @@
     <string>f_l.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>fi</key>
+    <string>fi.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>fl</key>
+    <string>fl.glif</string>
     <key>four</key>
     <string>four.glif</string>
     <key>fraction</key>
