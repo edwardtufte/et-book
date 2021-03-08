@@ -28,6 +28,8 @@
     <string>C_cedilla.glif</string>
     <key>D</key>
     <string>D_.glif</string>
+    <key>Dcroat</key>
+    <string>D_croat.glif</string>
     <key>E</key>
     <string>E_.glif</string>
     <key>Eacute</key>
@@ -202,6 +204,8 @@
     <string>dagger.glif</string>
     <key>daggerdbl</key>
     <string>daggerdbl.glif</string>
+    <key>dcroat</key>
+    <string>dcroat.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
     <key>dieresis</key>
