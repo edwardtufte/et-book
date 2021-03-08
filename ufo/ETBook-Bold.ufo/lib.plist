@@ -134,6 +134,7 @@
       <string>Adieresis</string>
       <string>Aring</string>
       <string>Ccedilla</string>
+      <string>Dcroat</string>
       <string>Eacute</string>
       <string>Ntilde</string>
       <string>Odieresis</string>
@@ -145,6 +146,7 @@
       <string>atilde</string>
       <string>aring</string>
       <string>ccedilla</string>
+      <string>dcroat</string>
       <string>eacute</string>
       <string>egrave</string>
       <string>ecircumflex</string>
