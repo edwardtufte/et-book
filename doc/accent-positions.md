@@ -71,7 +71,7 @@ To be filled in.
 <!-- | Z | @@ | @@ | -->
 <!-- | z | @@ | @@ | -->
 
-* The dots on adieresis are slightly larger than the ones in dieresis. This takes a value such that the dieresis dots are pretty much dead centre in the adieresis dots.
+\* The dots on adieresis are slightly larger than the ones in dieresis. This takes a value such that the dieresis dots are pretty much dead centre in the adieresis dots.
 † The dots on edieresis are slightly smaller than the ones in dieresis. The numbers give the centre-point position, i.e. so that the right edge of the left dot and the left edge of the right dot match up.
 ‡ The tilde on Ntilde and ntilde is a different shape from tilde. 300, 219 makes tilde roughly line up with Ntilde; 55, 0 with ntilde. If other tilde’d accented characters are needed, it would probably be best to pull the tildes out pof Ntilde and ntilde, as they look somewhat more italic (and more balanced) than tilde.
 
