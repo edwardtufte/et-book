@@ -29,6 +29,7 @@ build/woff2: | build
 	mkdir -p build/woff2
 
 build/psautohint/%.ufo: ufo/%.ufo ufo/%.ufo/* | build/psautohint
+	rm -rf $@
 	psautohint -o $@ $<
 
 build/otf/%.otf: build/psautohint/%.ufo | build/otf
@@ -37,11 +38,11 @@ build/otf/%.otf: build/psautohint/%.ufo | build/otf
 build/ttf/%.ttf: build/otf/%.otf | build/ttf
 	otf2ttf -o /dev/stdout $< | ttfautohint /dev/stdin $@
 
-build/woff/%.woff: build/otf/%.otf | build/woff
+build/woff/%.woff: build/ttf/%.ttf | build/woff
 	ttf2woff $< $@
 
-build/woff2/%.woff2: build/otf/%.otf | build/woff2
-	woff2_compress $< && mv build/otf/$*.woff2 build/woff2/
+build/woff2/%.woff2: build/ttf/%.ttf | build/woff2
+	woff2_compress $< && mv build/ttf/$*.woff2 build/woff2/
 
 HINTING_TEST_SIZES = 14 15 16 17 18 19 20 21
 
