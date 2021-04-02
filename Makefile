@@ -43,11 +43,12 @@ build/woff/%.woff: build/otf/%.otf | build/woff
 build/woff2/%.woff2: build/otf/%.otf | build/woff2
 	woff2_compress $< && mv build/otf/$*.woff2 build/woff2/
 
+HINTING_TEST_SIZES = 14 15 16 17 18 19 20 21
 
-ALL_OTF_HINTING_TESTS = tests/otf-hinting/Roman-14.png tests/otf-hinting/Roman-15.png tests/otf-hinting/Roman-16.png tests/otf-hinting/Roman-17.png tests/otf-hinting/Roman-18.png tests/otf-hinting/Roman-19.png tests/otf-hinting/Roman-20.png tests/otf-hinting/Roman-21.png
-ALL_TTF_HINTING_TESTS = tests/ttf-hinting/Roman-14.png tests/ttf-hinting/Roman-15.png tests/ttf-hinting/Roman-16.png tests/ttf-hinting/Roman-17.png tests/ttf-hinting/Roman-18.png tests/ttf-hinting/Roman-19.png tests/ttf-hinting/Roman-20.png tests/ttf-hinting/Roman-21.png
+ALL_OTF_HINTING_TESTS = $(patsubst %,tests/otf-hinting/Roman-%.png,${HINTING_TEST_SIZES})
+ALL_TTF_HINTING_TESTS = $(patsubst %,tests/ttf-hinting/Roman-%.png,${HINTING_TEST_SIZES})
 
-test: ${ALL_OTF_HINTING_TESTS}  ${ALL_TTF_HINTING_TESTS}
+test: ${ALL_OTF_HINTING_TESTS} ${ALL_TTF_HINTING_TESTS}
 
 tests:
 	mkdir -p tests
