@@ -17,14 +17,14 @@
     <key>italicAngle</key>
     <integer>0</integer>
     <key>postscriptBlueFuzz</key>
-    <integer>2</integer>
+    <integer>0</integer>
     <key>postscriptBlueScale</key>
-    <real>0.05996</real>
+    <real>0.05296</real>
     <key>postscriptBlueShift</key>
     <integer>7</integer>
     <key>postscriptBlueValues</key>
     <array>
-      <integer>420</integer>
+      <integer>415</integer>
       <integer>432</integer>
       <integer>651</integer>
       <integer>667</integer>
