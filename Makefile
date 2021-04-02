@@ -16,17 +16,17 @@ clean:
 	rm -rf build/ tests/
 
 build:
-	mkdir build
+	mkdir -p build
 build/psautohint: | build
-	mkdir build/psautohint
+	mkdir -p build/psautohint
 build/otf: | build
-	mkdir build/otf
+	mkdir -p build/otf
 build/ttf: | build
-	mkdir build/ttf
+	mkdir -p build/ttf
 build/woff: | build
-	mkdir build/woff
+	mkdir -p build/woff
 build/woff2: | build
-	mkdir build/woff2
+	mkdir -p build/woff2
 
 build/psautohint/%.ufo: ufo/%.ufo ufo/%.ufo/* | build/psautohint
 	psautohint -o $@ $<
@@ -50,11 +50,11 @@ ALL_TTF_HINTING_TESTS = tests/ttf-hinting/Roman-14.png tests/ttf-hinting/Roman-1
 test: ${ALL_OTF_HINTING_TESTS}  ${ALL_TTF_HINTING_TESTS}
 
 tests:
-	mkdir tests
+	mkdir -p tests
 tests/otf-hinting: | tests
-	mkdir tests/otf-hinting
+	mkdir -p tests/otf-hinting
 tests/ttf-hinting: | tests
-	mkdir tests/ttf-hinting
+	mkdir -p tests/ttf-hinting
 
 tests/otf-hinting/Roman-%.png: build/otf/ETBook-Roman.otf | tests/otf-hinting
 	convert -background white -fill black -font build/otf/ETBook-Roman.otf -pointsize $* label:'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ß' $@
