@@ -17,19 +17,19 @@
     <key>italicAngle</key>
     <integer>0</integer>
     <key>postscriptBlueFuzz</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>postscriptBlueScale</key>
-    <real>0.01627</real>
+    <real>0.05996</real>
     <key>postscriptBlueShift</key>
     <integer>7</integer>
     <key>postscriptBlueValues</key>
     <array>
-      <integer>-25</integer>
-      <integer>0</integer>
-      <integer>414</integer>
-      <integer>435</integer>
-      <integer>650</integer>
-      <integer>672</integer>
+      <integer>420</integer>
+      <integer>432</integer>
+      <integer>651</integer>
+      <integer>667</integer>
+      <integer>728</integer>
+      <integer>728</integer>
     </array>
     <key>postscriptFamilyBlues</key>
     <array/>
@@ -43,17 +43,21 @@
     <string>ETBook Roman</string>
     <key>postscriptOtherBlues</key>
     <array>
-      <integer>-279</integer>
+      <integer>-3</integer>
+      <integer>-13</integer>
+      <integer>-263</integer>
       <integer>-279</integer>
     </array>
     <key>postscriptStemSnapH</key>
     <array>
+      <integer>36</integer>
       <integer>38</integer>
       <integer>39</integer>
     </array>
     <key>postscriptStemSnapV</key>
     <array>
       <integer>80</integer>
+      <integer>88</integer>
       <integer>96</integer>
     </array>
     <key>postscriptUnderlinePosition</key>
