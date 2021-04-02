@@ -1,0 +1,4 @@
+include(../../features/ligatures.fea);
+include(../../features/figure_casing.fea);
+
+include(kerning.fea);

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=en>
+<style>
+@font-face {
+    font-family: 'ET Book';
+    src: url('./build/woff2/ETBook-Roman.woff2') format('woff2');
+}
+
+body {
+    font-family: 'ET Book';
+}
+.uc { text-transform: uppercase; letter-spacing: 0.03em; }
+.lc { text-transform: lowercase; }
+.sc { font-variant: small-caps; letter-spacing: 0.02em; }
+p { margin: 0; }
+h1, h2 {
+    font-weight: normal;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', async function () {
+    const languageNames = {
+        cz: 'Czech',
+        da: 'Danish',
+        de: 'German',
+        en: 'English',
+        es: 'Spanish',
+        et: 'Estonian',
+        fi: 'Finnish',
+        fr: 'French',
+        ga: 'Irish',
+        hr: 'Croatian',
+        hu: 'Hungarian',
+        is: 'Icelandic',
+        it: 'Italian',
+        lt: 'Lithuanian',
+        mt: 'Maltese',
+        nl: 'Dutch',
+        pl: 'Polish',
+        pt: 'Portuguese',
+        ro: 'Romanian',
+        sk: 'Slovakian',
+        sl: 'Slovenian',
+        sv: 'Swedish'
+    };
+
+    let pangramsSrc = await (await fetch('pangrams.txt')).text(),
+        pangramsSrcArray = pangramsSrc.split("\n"),
+        pangrams = new Array();
+    
+    for (let pangramSrc of pangramsSrcArray) {
+        let parsedPangram = pangramSrc.match(/^([a-z]+) (.*)$/);
+        if (!parsedPangram) { continue; }
+        
+        pangrams.push({
+            langCode: parsedPangram[1],
+            langName: languageNames[parsedPangram[1]],
+            pangramText: parsedPangram[2],
+        });
+    }
+
+    pangrams.sort(function (a, b) {
+        if (a.langName < b.langName) {
+            return -1;
+        } else if (a.langName > b.langName) {
+            return 1;
+        } else {
+            return 0;
+        }
+    });
+
+    pangramsHTMLs = new Array();
+    for (let pangram of pangrams) {
+        pangramsHTMLs.push(
+            `<h2>${pangram.langName}</h2>
+             <p lang=${pangram.langCode}>${pangram.pangramText}
+             <p lang=${pangram.langCode} class=uc>${pangram.pangramText}
+             <p lang=${pangram.langCode} class=lc>${pangram.pangramText}
+             <p lang=${pangram.langCode} class=sc>${pangram.pangramText}
+            `
+        );
+    }
+    
+    let main = document.getElementById('content');
+    main.innerHTML = pangramsHTMLs.join('');
+});
+</script>
+<body>
+<main id=content>
+</main>
+</body>
+

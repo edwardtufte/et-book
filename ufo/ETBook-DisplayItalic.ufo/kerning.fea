@@ -1,0 +1,3 @@
+feature kern {
+    position d period -13;
+} kern;
