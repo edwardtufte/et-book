@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="edieresis.sc" format="2">
   <advance width="457"/>
-  <unicode hex="00EB"/>
   <outline>
     <contour>
       <point x="411" y="113" type="line"/>

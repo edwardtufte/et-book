@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenright.csc" format="2">
   <advance width="284"/>
-  <unicode hex="0029"/>
   <outline>
     <contour>
       <point x="46" y="-191" type="curve"/>

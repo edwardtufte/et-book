@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greater.csc" format="2">
   <advance width="593"/>
-  <unicode hex="003E"/>
   <outline>
     <contour>
       <point x="517" y="196" type="curve" smooth="yes"/>

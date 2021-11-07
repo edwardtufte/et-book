@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fraction.frac" format="2">
   <advance width="100"/>
-  <unicode hex="2044"/>
   <outline>
     <contour>
       <point x="-152" y="-40" type="curve"/>

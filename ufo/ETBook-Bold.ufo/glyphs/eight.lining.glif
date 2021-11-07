@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eight.lining" format="2">
   <advance width="488"/>
-  <unicode hex="0038"/>
   <outline>
     <contour>
       <point x="159" y="318" type="curve"/>

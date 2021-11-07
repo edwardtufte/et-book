@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="question.csc" format="2">
   <advance width="362"/>
-  <unicode hex="003F"/>
   <outline>
     <contour>
       <point x="251" y="329" type="curve" smooth="yes"/>

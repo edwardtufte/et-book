@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="h.sc" format="2">
   <advance width="603"/>
-  <unicode hex="0068"/>
   <outline>
     <contour>
       <point x="550" y="-3" type="curve" smooth="yes"/>

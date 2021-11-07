@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iacute.sc" format="2">
   <advance width="293"/>
-  <unicode hex="00ED"/>
   <outline>
     <contour>
       <point x="231" y="-3" type="curve" smooth="yes"/>

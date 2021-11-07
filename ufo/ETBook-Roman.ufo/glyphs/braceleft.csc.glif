@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="braceleft.csc" format="2">
   <advance width="484"/>
-  <unicode hex="007B"/>
   <outline>
     <contour>
       <point x="390" y="-249" type="curve" smooth="yes"/>

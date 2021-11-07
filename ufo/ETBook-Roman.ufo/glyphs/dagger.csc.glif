@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dagger.csc" format="2">
   <advance width="422"/>
-  <unicode hex="2020"/>
   <outline>
     <contour>
       <point x="368" y="273" type="curve" smooth="yes"/>

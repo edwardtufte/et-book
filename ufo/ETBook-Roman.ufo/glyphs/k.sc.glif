@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="k.sc" format="2">
   <advance width="537"/>
-  <unicode hex="006B"/>
   <outline>
     <contour>
       <point x="505" y="-2" type="curve"/>

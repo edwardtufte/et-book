@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="egrave.sc" format="2">
   <advance width="457"/>
-  <unicode hex="00E8"/>
   <outline>
     <contour>
       <point x="411" y="113" type="line"/>

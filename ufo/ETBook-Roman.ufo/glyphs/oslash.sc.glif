@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oslash.sc" format="2">
   <advance width="577"/>
-  <unicode hex="00F8"/>
   <outline>
     <contour>
       <point x="521" y="467" type="line"/>

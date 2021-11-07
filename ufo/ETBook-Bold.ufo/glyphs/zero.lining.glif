@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.lining" format="2">
   <advance width="489"/>
-  <unicode hex="0030"/>
   <outline>
     <contour>
       <point x="245" y="-18" type="curve" smooth="yes"/>

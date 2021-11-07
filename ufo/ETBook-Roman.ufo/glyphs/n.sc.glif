@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n.sc" format="2">
   <advance width="579"/>
-  <unicode hex="006E"/>
   <outline>
     <contour>
       <point x="556" y="443" type="curve" smooth="yes"/>

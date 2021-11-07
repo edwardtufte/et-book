@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="thorn.sc" format="2">
   <advance width="434"/>
-  <unicode hex="00FE"/>
   <outline>
     <contour>
       <point x="218" y="102" type="curve" smooth="yes"/>

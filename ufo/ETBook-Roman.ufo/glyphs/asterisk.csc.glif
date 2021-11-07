@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asterisk.csc" format="2">
   <advance width="484"/>
-  <unicode hex="002A"/>
   <outline>
     <contour>
       <point x="360" y="350" type="curve" smooth="yes"/>

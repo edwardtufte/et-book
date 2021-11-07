@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal.csc" format="2">
   <advance width="593"/>
-  <unicode hex="003D"/>
   <outline>
     <contour>
       <point x="502" y="299" type="line" smooth="yes"/>

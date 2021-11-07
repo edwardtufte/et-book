@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odieresis.sc" format="2">
   <advance width="577"/>
-  <unicode hex="00F6"/>
   <outline>
     <contour>
       <point x="289" y="-14" type="curve" smooth="yes"/>

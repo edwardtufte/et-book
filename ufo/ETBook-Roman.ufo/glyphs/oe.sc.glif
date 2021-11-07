@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oe.sc" format="2">
   <advance width="695"/>
-  <unicode hex="0153"/>
   <outline>
     <contour>
       <point x="668" y="113" type="line"/>

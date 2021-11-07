@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eight.den" format="2">
   <advance width="332"/>
-  <unicode hex="0038"/>
   <outline>
     <contour>
       <point x="240" y="187" type="curve" smooth="yes"/>

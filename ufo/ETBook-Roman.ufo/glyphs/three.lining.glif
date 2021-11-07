@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="three.lining" format="2">
   <advance width="489"/>
-  <unicode hex="0033"/>
   <outline>
     <contour>
       <point x="443" y="220" type="curve" smooth="yes"/>

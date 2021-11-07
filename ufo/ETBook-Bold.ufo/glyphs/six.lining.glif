@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="six.lining" format="2">
   <advance width="489"/>
-  <unicode hex="0036"/>
   <outline>
     <contour>
       <point x="180" y="367" type="curve"/>
