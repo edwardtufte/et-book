@@ -4,9 +4,13 @@ build
 otf
 woff
 *.otf
+
 specimen/specimen.aux
 specimen/specimen.log
 specimen/specimen.pdf
+
+* (Autosaved).glyphs
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
