@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aogonek" format="2">
-	<advance width="1060"/>
+	<advance width="711"/>
 	<unicode hex="0104"/>
 	<outline>
 		<contour>
@@ -129,7 +129,7 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-11-08 09:49:28 +0000</string>
+			<string>2022-03-07 08:49:05 +0000</string>
 		</dict>
 	</lib>
 </glyph>
