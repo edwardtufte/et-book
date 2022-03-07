@@ -1,3 +1,4 @@
+# Prefix: Prefix
 @figures = [\zero \one \two \three \four \five \six \seven \eight \nine];
 @figures_lining = [\zero.lining \one.lining \two.lining \three.lining \four.lining \five.lining \six.lining \seven.lining \eight.lining \nine.lining];
 @figures_numr = [\zero.num \one.num \two.num \three.num \four.num \five.num \six.num \seven.num \eight.num \nine.num];
@@ -12,6 +13,13 @@ feature frac {
     sub fraction by fraction.frac;
 } frac;
 
+include(../../features/small_caps.fea);
+include(../../features/ligatures.fea);
+include(../../features/figure_casing.fea);
+include(../../features/figure_spacing.fea);
+
+include(kerning.fea);
+
 feature numr {
     sub @figures by @figures_numr;
     sub @figures_lining by @figures_numr;
@@ -22,9 +30,3 @@ feature dnom {
     sub @figures_lining by @figures_dnom;
 } dnom;
 
-include(../../features/small_caps.fea);
-include(../../features/ligatures.fea);
-include(../../features/figure_casing.fea);
-include(../../features/figure_spacing.fea);
-
-include(kerning.fea);
