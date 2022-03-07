@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>copyright</key>
+    <string>ETBembo Expert designed for Eward Tufte / Graphics Press \(c\) 2002 Dmitry Krasny / Deka Design</string>
+    <key>familyName</key>
+    <string>ETBembo</string>
+    <key>guidelines</key>
+    <array/>
+    <key>italicAngle</key>
+    <integer>0</integer>
+    <key>postscriptBlueFuzz</key>
+    <integer>1</integer>
+    <key>postscriptBlueScale</key>
+    <real>0.02727</real>
+    <key>postscriptBlueShift</key>
+    <integer>7</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-14</integer>
+      <integer>0</integer>
+      <integer>478</integer>
+      <integer>490</integer>
+      <integer>605</integer>
+      <integer>614</integer>
+    </array>
+    <key>postscriptFamilyBlues</key>
+    <array/>
+    <key>postscriptFamilyOtherBlues</key>
+    <array/>
+    <key>postscriptFontName</key>
+    <string>ETBembo-Expert</string>
+    <key>postscriptForceBold</key>
+    <false/>
+    <key>postscriptFullName</key>
+    <string>ETBembo Expert</string>
+    <key>postscriptOtherBlues</key>
+    <array/>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>20</integer>
+      <integer>37</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>57</integer>
+      <integer>150</integer>
+    </array>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptWeightName</key>
+    <string>Normal</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>1</integer>
+  </dict>
+</plist>

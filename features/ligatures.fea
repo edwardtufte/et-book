@@ -1,0 +1,11 @@
+# TODO: some of these do not apply for all languages
+# mainly i think ffl shouldn't apply in German
+
+feature liga {
+    sub \f \f \i  by \f_f_i;
+    sub \f \f \l  by \f_f_l;
+    sub \f \i  by \f_i;
+    sub \f \j  by \f_j;
+    sub \f \l  by \f_l;
+    sub \f \f  by \f_f;
+} liga;
